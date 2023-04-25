@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Poster</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    
+    <header class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Main</a></li>
+                    <li><a href="#portfolio">My projects</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Контент сайта -->
+    <div class="container">
+
+        <!-- Секция "Обо мне" -->
+        <section id="about">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="/2023-04-25 19.23.42.jpg" alt="Фото" class="img-fluid w-300 h-300">
+                </div>
+                <div class="col-md-8">
+                    <h1>Hello , my name is Kaiyr!</h1>
+                    <p>I was born in 2005 on January 22 in the city of Pavlodar. In 2015, I moved to Astana and graduated from school number 77, after which I entered the university of Astana IT University. After graduation, I tried to open my own business , but unfortunately there were failures. After that, I became a successful businessman and investor. I have more than 5 large successful business projects, and I am included in the Forbes global rating "30 to 30". I have 12 years of investment experience, I prefer long-term investments</p>
+                    <p>If you have any questions, please contact me!</p>
+                    <p><a class="btn btn-primary" href="#contact" role="button">Contact me</a></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция "Портфолио" -->
+        <section id="portfolio">
+            <h2>My business projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="https://media.wired.com/photos/5999d52437520538918a890f/master/w_2560%2Cc_limit/Mercedes_headquarters_01.jpg" alt="project1">
+                        <div class="caption">
+                            <h3>Mercedes</h3>
+                            <a href="https://www.mercedes-benz.com/en/" target="_blank"><p>Click here for get more information</p></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="https://s.hdnux.com/photos/01/30/32/06/23175577/3/1200x0.jpg" alt="project2">
+                        <div class="caption">
+                            <h3>Starbucks</h3>
+                            <a href="https://www.starbucks.com" target="_blank"><p>Click here for get more information</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="https://static01.nyt.com/images/2020/02/17/business/17apple/merlin_168487071_758ee693-dee1-4a5d-bb72-61d989164577-superJumbo.jpg" alt="project3">
+                        <div class="caption">
+                            <h3>Apple company</h3>
+                            <a href="https://www.apple.com" target="_blank"><p>Click here for get more information</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция "Контакты" -->
+        <section id="contact">
+            <h2>Contacts</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <p>You can contact me in the following ways:</p>
+                    <ul>
+                        <li>Email: kabi.kair@mail.ru</li>
+                        <li>Phone: +7 (778) 707-77-07</li>
+                        <a href="https://www.instagram.com/kaiyr.kabi/" target="_blank"><li>Instagram</li></a>
+                        <a href="https://t.me/kaiyr014"><li>Telegram</li></a>
+                        
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Подключение библиотеки jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Подключение библиотеки Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
